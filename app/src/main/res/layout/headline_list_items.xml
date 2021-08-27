@@ -4,8 +4,9 @@
     android:id="@+id/cv_mainContainer"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:cardElevation="8dp"
-    android:layout_margin="8dp"
+    app:cardElevation="15dp"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="12dp"
     >
 
     <LinearLayout
@@ -21,6 +22,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
+            android:layout_margin="10dp"
             android:src="@drawable/not_available"
             />
         <LinearLayout
@@ -34,7 +36,7 @@
                 android:id="@+id/tv_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="22sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:maxLines="3"/>
@@ -42,9 +44,9 @@
                 android:id="@+id/tv_source"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
-                android:textColor="@color/purple_200"
+                android:textColor="@color/teal_200"
                 android:maxLines="1"
                 android:layout_marginTop="6dp"
                 />

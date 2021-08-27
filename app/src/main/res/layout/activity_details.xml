@@ -19,8 +19,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardElevation="8dp"
-                android:layout_margin="8dp"
+                app:cardElevation="15dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="10dp"
                 >
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -32,9 +33,10 @@
                         android:id="@+id/tv_detailsTitle"
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:textSize="26sp"
+                        android:textSize="22sp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
                         >
                     </TextView>
                     <ImageView
@@ -43,15 +45,18 @@
                         android:src="@drawable/not_available"
                         android:layout_height="250dp"
                         android:scaleType="fitXY"
-                        android:layout_marginTop="8dp"
-
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
                         >
                     </ImageView>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/tv_detailAuthor"
-                        android:layout_marginTop="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
                         android:textColor="@color/purple_200"
                         android:textSize="16sp"
                         >
@@ -60,7 +65,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/tv_detailTime"
-                        android:layout_marginTop="6dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         >
@@ -72,9 +79,11 @@
                 android:id="@+id/tv_detailDetail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="22sp"
+                android:textSize="20sp"
                 android:textColor="@color/black"
-                android:layout_marginTop="8dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
                 >
             </TextView>
 
@@ -82,9 +91,11 @@
                 android:id="@+id/tv_detailContent"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:textColor="@color/black"
-                android:layout_marginTop="8dp"
+                android:textSize="18sp"
+                android:textColor="#90a4ae"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
                 >
             </TextView>
         </LinearLayout>
