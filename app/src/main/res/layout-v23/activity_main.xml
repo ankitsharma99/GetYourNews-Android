@@ -21,8 +21,97 @@
             >
         </Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
 
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_1"
+                android:text="Business"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_2"
+                android:text="Entertainment"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_3"
+                android:text="General"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_4"
+                android:text="Health"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_5"
+                android:text="Science"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_6"
+                android:text="Sports"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_7"
+                android:text="Technology"
+                android:textSize="12sp"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                />
+        </LinearLayout>
+    </HorizontalScrollView>
 
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:elevation="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:defaultQueryHint="Search your favourite News topics"
+            app:iconifiedByDefault="false"
+            >
+        </androidx.appcompat.widget.SearchView>
+    </androidx.cardview.widget.CardView>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_recyclerViewMain"
         android:layout_width="match_parent"
