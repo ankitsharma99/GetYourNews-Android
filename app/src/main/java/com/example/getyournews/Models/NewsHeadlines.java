@@ -1,6 +1,8 @@
 package com.example.getyournews.Models;
 
-public class NewsHeadlines {
+import java.io.Serializable;
+
+public class NewsHeadlines implements Serializable {
     //all the contents of the articles object
     Source source = null;
     String author = "";

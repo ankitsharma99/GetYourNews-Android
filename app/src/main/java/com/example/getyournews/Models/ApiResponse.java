@@ -1,8 +1,9 @@
 package com.example.getyournews.Models;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class ApiResponse {
+public class ApiResponse implements Serializable {
     //all the contents of the api response
     String status = "";
     int totalResults;
